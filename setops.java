@@ -1,8 +1,8 @@
 import java.util.*;
 public class setops {
     
-    // TC: O(N)
     public static void findUnique(int[] arr) {
+        // TC: O(N)
         Set<Integer> set = new HashSet<>();
         for (int ele : arr) {
             set.add(ele);
@@ -10,8 +10,8 @@ public class setops {
         System.out.println("Unique values : " + set);
     }
 
-    // TC: O(N)
     public static void searchElement(int[] arr, int key) {
+        // TC: O(N)
         Set<Integer> set = new HashSet<>();
         for (int ele : arr) {
             set.add(ele);
@@ -23,8 +23,8 @@ public class setops {
         }
     }
 
-    // TC: O(N log N)
     public static void sortElements(int[] arr) {
+        // TC: O(N log N)
         Set<Integer> set = new TreeSet<>();
         for (int ele : arr) {
             set.add(ele);
@@ -32,8 +32,8 @@ public class setops {
         System.out.println("Sorted values : " + set);
     }
 
-    // TC: O(N)
     public static void removeDuplicates(int[] arr) {
+        // TC: O(N)
         Set<Integer> set = new HashSet<>();
         for (int ele : arr) {
             set.add(ele);
